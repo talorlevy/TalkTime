@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  TalkTime
+
+  Created by Talor Levy on 3/12/23.
+  
+*/
+
+"SignInString_emailPlaceholder" = "email";
+"SignInString_passwordPlaceholder" = "passwort";
+"SignInString_signInButton" = "zeichen";
+"SignInString_signUpButton" = "anmeldung";
+"SignInString_facebookButton" = "weiter mit Facebook";
+"SignInString_googleButton" = "weiter mit Google";
+
+"SignUpString_getStartedLabel" = "loslegen!";
+"SignUpString_usernamePlaceholder" = "nutzername";
+"SignUpString_firstNamePlaceholder" = "vorname";
+"SignUpString_lastNamePlaceholder" = "nachname";
+"SignUpString_emailPlaceholder" = "email";
+"SignUpString_phonePlaceholder" = "telefon";
+"SignUpString_passwordPlaceholder" = "passwort";
+"SignUpString_confirmPasswordPlaceholder" = "bestätige das passwort";
+"SignUpString_dateOfBirthLabel" = "geburtsdatum:";
+"SignUpString_maleLabel" = "männlich";
+"SignUpString_femaleLabel" = "weiblich";
+"SignUpString_signUpButton" = "anmeldung";
+
+"MainTabBarControllerString_homeTab" = "heim";
+"MainTabBarControllerString_messageTab" = "nachricht";
+"MainTabBarControllerString_postTab" = "posten";
+"MainTabBarControllerString_searchTab" = "suchen";
+"MainTabBarControllerString_settingsTab" = "einstellungen";
+
+"PostString_postTextFieldPlaceholder" = "geben sie hier ihre beitragsbeschreibung ein";
+"PostString_postButton" = "posten";
+
+"SettingsString_profileButton" = "profil";
+"SettingsString_languageButton" = "sprache";
+"SettingsString_signOutButton" = "ausloggen";
+
+"LanguageString_englishButton" = "englisch";
+"LanguageString_spanishButton" = "spanisch";
+"LanguageString_germanButton" = "deutsch";
+
+"ProfileString_profileLabel" = "profil";
+"ProfileString_firstNamePlaceholder" = "vorname";
+"ProfileString_lastNamePlaceholder" = "nachname";
+"ProfileString_phonePlaceholder" = "telefon";
+"ProfileString_myLocationButton" = "mein standort";
+"ProfileString_maleLabel" = "männlich";
+"ProfileString_femaleLabel" = "weiblich";
+"ProfileString_saveButton" = "speichern";
+
+"GoogleMapsString_saveLocationButton" = "sicherer ort";
+
+"ImagePickerString_camera" = "kamera";
+"ImagePickerString_gallery" = "galerie";
+"ImagePickerString_cancel" = "stornieren";
+
+"WarningString_warning" = "warnung";
+"WarningString_ok" = "ok";
+"WarningString_forgotFirstName" = "bitte geben sie ihren vornamen ein.";
+"WarningString_forgotLastName" = "bitte geben sie ihren nachnamen ein.";
+"WarningString_forgotFirstAndLastName" = "bitte geben sie ihren vor- und nachnamen ein.";
+"WarningString_invalidEmail" = "bitte geben sie eine gültige email-adresse ein.";
+"WarningString_invalidPhone" = "bitte geben sie eine gültige telefonnummer ein.";
+"WarningString_forgotPassword" = "bitte passwort eingeben.";
+"WarningString_confirmPasswordDoesNotMatch" = "passwort und bestätigungspasswort stimmen nicht überein.";
+"WarningString_invalidDateOfBirth" = "bitte geben sie ein gültiges geburtsdatum ein.";
+"WarningString_forgotGender" = "bitte wählen sie ihr geschlecht.";
+"WarningString_usernameExists" = "benutzername existiert bereits, bitte wählen sie einen anderen benutzernamen.";

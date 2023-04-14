@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3490A4869E5596F395557AF5A226555B /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+				8CD95BCB8E6BD0E25A59C4281A19269A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+				942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03ADABCFE9692A835965DC9358D741D9 /* UITextView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCE45C650A3CBACCBF7624E3222DFAD /* UITextView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0401ABC41DD7B9B1E63041C57B953AE5 /* Pods-TalkTimeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432DE33420936F78E8DECD0247BE5260 /* Pods-TalkTimeTests-dummy.m */; };
+		17C466664F062855A1DF911CC275E934 /* UIView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 773449F56770426A460B472B2D4B5D35 /* UIView+Localization.m */; };
+		196D0341A167E24802A0AC5A5382F1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3600CED9A12A156CDBBF7200638ABEED /* UIView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CAF0290BCAC17B5B83F839030EB13B /* UIView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39515259D61216D8A3A367AA20609CFA /* LKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD235275D849A4097E79C58BA9E8DB /* LKManager.m */; };
+		3F610E3B6095FD8F046F1FD981AF0569 /* UITextField+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 263751AC89369A62B48842B829EC9185 /* UITextField+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		418467F02CB81E94AAACD78FFC39F6A0 /* UISegmentedControl+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 808EC83EFE97A6B2799F1C209FCDD36D /* UISegmentedControl+Localization.m */; };
+		41F7CD10E8D400AC772D86C2DE9780E9 /* LKLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 23595A44BF709E61669184C3E6291F91 /* LKLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42E3ACE90896F36A8037F25C744B1E00 /* Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A697EC4AA16C923A934D5C47AB9B199 /* Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A4EDB8B2566F8DEF4B3DE62E2C99D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		52AC2E7C0E58CBD8990EB7BE11FCDF2F /* UIViewController+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A2C737F33DAFBFF05F56B91FD5485B /* UIViewController+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F97A6CE948DAA598EC12E2CF580C34E /* NSBundle+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAB45382059C71FCF6A4D27663FFE4C /* NSBundle+Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72633C9FCE018BB91EFE5E9BD8CD1634 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBCF1471210F051BA21CE73E97857E /* NSBundle+Language.m */; };
+		880F2563FFEB7F4D5829FF180216C8F4 /* LKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE80A5F89A7E44C40CDDA3999B53CD8 /* LKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955CCB2A67E2A5FB44CBC67A336342FD /* UIBarButtonItem+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8594385F057FF515104B61DDCCA4D9 /* UIBarButtonItem+Localization.m */; };
+		98F27A868C03773D05DA8754A08F0663 /* UISegmentedControl+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA80ACC4878D406930E3E2EAF85747A /* UISegmentedControl+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E735F9D49B15FA1534B933DA5651252 /* Pods-TalkTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25492395FEE2C46ED18ED2C6AB71C9C2 /* Pods-TalkTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E96BBE06478C5205B012F994CD34380 /* UILabel+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F3F4AC2393A0E073C6724D8D51413 /* UILabel+Localization.m */; };
+		A3D291B470579087A76B29A7EFFB432A /* Loki.h in Headers */ = {isa = PBXBuildFile; fileRef = 86101EEAF283109C8C818873D03B89EA /* Loki.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3423C5D275A627ECFB8395530EE16B /* UILabel+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4AFE12F8B1FF1EA43332ADCE972598 /* UILabel+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF78A63E3A3B7CC57BC7121728B0FB2 /* Pods-TalkTimeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE84A594ECAFF4E5FE8A96187613B1E /* Pods-TalkTimeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED90AF5B4C29EB417E72A321B295ED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B085D34DF932D2EC7DFBF49FBC60DBAF /* UITextView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E98997B9CA849EC40558A27EBB4DD2 /* UITextView+Localization.m */; };
+		B5426152E6F79F20A47B26091DC94E2D /* LKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E540FF1262676F87986C87A4B032134 /* LKLanguage.m */; };
+		BD15658B2F2CB63EBC7B4EC63945BE53 /* Loki-Loki in Resources */ = {isa = PBXBuildFile; fileRef = 7E013585B77C67CC5D54BFE97035C14E /* Loki-Loki */; };
+		C353D70B98EF71C7FD549A969342AB84 /* Pods-TalkTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473006E3127073916D16C35008B012D1 /* Pods-TalkTime-dummy.m */; };
+		D355525B84134FC0C750F8E3D8A94026 /* UIViewController+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD370F18233B02D66930839479A822 /* UIViewController+Localization.m */; };
+		DAFEBC185D91CA8847AD95C5640ABCE2 /* UIButton+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44CC775FB9A465FE74D722EFD619E /* UIButton+Localization.m */; };
+		E2C730199D6AF2FE57A2AE8C6ED419B0 /* UITextField+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 878AA13F417BB06EA3FD7FB0B6AFB972 /* UITextField+Localization.m */; };
+		E939696E199E7A5188176EF195A8A86F /* Loki-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB88F6390BCE58A09EF1801274446562 /* Loki-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B4064D0E09CEB49AA14170D1F24C6C /* UIButton+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6E02917FCA16D111BC95F3CF8C6B80 /* UIButton+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5E59081CE92822AB466CEDF82EC7F8 /* UIBarButtonItem+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7266BA828C05D76B1298401259CEF589 /* UIBarButtonItem+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E34F14D113B22A772AB46431425223 /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E11D18A9480D69313CE57CB4D20A5C /* Swizzle.m */; };
+		FA18D5E8FDCD47FEADBDC9CAF089F57E /* Loki-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D041DC41763E56EC5C46E72D5A23B123 /* Loki-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EF18EFEE2BC409BA2613C956CDAEDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FEF53517593967E5778EB50959F9FB;
+			remoteInfo = Loki;
+		};
+		229D36B0DADF94198BB5F1E53AF9D2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		4AD816D74F47C1081AE522F72A9F44DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		63EAA429269E5341721F56CC9A2E11DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6E62B1D9A03FBE672D5FE8C009E80D;
+			remoteInfo = "Loki-Loki";
+		};
+		B3C0E39181E8C92F836E840B19EC4B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FEF53517593967E5778EB50959F9FB;
+			remoteInfo = Loki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A661749E34D2757DC8A9B317AB81FAC /* Pods-TalkTime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkTime-Info.plist"; sourceTree = "<group>"; };
+		0C9F3F4AC2393A0E073C6724D8D51413 /* UILabel+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Localization.m"; path = "Pod/Classes/Views/Text/UILabel+Localization.m"; sourceTree = "<group>"; };
+		1B8594385F057FF515104B61DDCCA4D9 /* UIBarButtonItem+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Localization.m"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.m"; sourceTree = "<group>"; };
+		1F5422AA5B7DEF07B9C58451FBCA41BA /* Pods-TalkTime-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkTime-acknowledgements.plist"; sourceTree = "<group>"; };
+		23595A44BF709E61669184C3E6291F91 /* LKLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLanguage.h; path = Pod/Classes/Models/LKLanguage.h; sourceTree = "<group>"; };
+		25492395FEE2C46ED18ED2C6AB71C9C2 /* Pods-TalkTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TalkTime-umbrella.h"; sourceTree = "<group>"; };
+		263751AC89369A62B48842B829EC9185 /* UITextField+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Localization.h"; path = "Pod/Classes/Views/Text/UITextField+Localization.h"; sourceTree = "<group>"; };
+		2AAB45382059C71FCF6A4D27663FFE4C /* NSBundle+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Language.h"; path = "Pod/Classes/Utils/NSBundle+Language.h"; sourceTree = "<group>"; };
+		2D6C75560244CA31C1AF423E772CA547 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		2E540FF1262676F87986C87A4B032134 /* LKLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLanguage.m; path = Pod/Classes/Models/LKLanguage.m; sourceTree = "<group>"; };
+		3232709A7B31424706A03E64B949E1FA /* Pods-TalkTime-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkTime-frameworks.sh"; sourceTree = "<group>"; };
+		3314A3B2502AFB628E1F22C8A95C090A /* Loki-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loki-Info.plist"; sourceTree = "<group>"; };
+		397EEAE0CA562753845B0646198D458D /* Pods-TalkTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A697EC4AA16C923A934D5C47AB9B199 /* Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swizzle.h; path = Pod/Classes/Utils/Swizzle.h; sourceTree = "<group>"; };
+		3C4AFE12F8B1FF1EA43332ADCE972598 /* UILabel+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Localization.h"; path = "Pod/Classes/Views/Text/UILabel+Localization.h"; sourceTree = "<group>"; };
+		3CFD370F18233B02D66930839479A822 /* UIViewController+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Localization.m"; path = "Pod/Classes/Controllers/UIViewController+Localization.m"; sourceTree = "<group>"; };
+		3F40109D763E5D5A66F24633B22F3E55 /* Pods-TalkTimeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TalkTimeTests"; path = Pods_TalkTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F453AC3EBA611660952B02B0BD4A7D7 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		40C0414DDA0B52152E74E8F04512C2FB /* Pods-TalkTimeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkTimeTests-frameworks.sh"; sourceTree = "<group>"; };
+		43203206B5E4BF3DE8FDCA2E7E0D5592 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		432DE33420936F78E8DECD0247BE5260 /* Pods-TalkTimeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TalkTimeTests-dummy.m"; sourceTree = "<group>"; };
+		4619F1AB2A1BC437727F1CC3E9989703 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		473006E3127073916D16C35008B012D1 /* Pods-TalkTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TalkTime-dummy.m"; sourceTree = "<group>"; };
+		48BBC9A94A88C3AAEC906794619D289B /* Pods-TalkTime */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TalkTime"; path = Pods_TalkTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBBAA65518A3AD2E062D12EC14CC468 /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
+		5FD44CC775FB9A465FE74D722EFD619E /* UIButton+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Localization.m"; path = "Pod/Classes/Views/Controls/UIButton+Localization.m"; sourceTree = "<group>"; };
+		7266BA828C05D76B1298401259CEF589 /* UIBarButtonItem+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Localization.h"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7546E6CF22BDEDA1D78F20DD5ABB397A /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		773449F56770426A460B472B2D4B5D35 /* UIView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Localization.m"; path = "Pod/Classes/Views/UIView+Localization.m"; sourceTree = "<group>"; };
+		77A2C737F33DAFBFF05F56B91FD5485B /* UIViewController+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Localization.h"; path = "Pod/Classes/Controllers/UIViewController+Localization.h"; sourceTree = "<group>"; };
+		79D2613A51BB19A53B086B815D47E6FC /* Pods-TalkTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkTime.release.xcconfig"; sourceTree = "<group>"; };
+		7CDC9B932503480DA0B0F4A3B31B4566 /* Pods-TalkTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkTime.debug.xcconfig"; sourceTree = "<group>"; };
+		7E013585B77C67CC5D54BFE97035C14E /* Loki-Loki */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Loki-Loki"; path = Loki.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		808EC83EFE97A6B2799F1C209FCDD36D /* UISegmentedControl+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Localization.m"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.m"; sourceTree = "<group>"; };
+		80931FB93268959A83BADB82D753151D /* Loki */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loki; path = Loki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E9FC6B9D793AE40C3CDD8027F14E70 /* Pods-TalkTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TalkTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86101EEAF283109C8C818873D03B89EA /* Loki.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Loki.h; path = Pod/Classes/Loki.h; sourceTree = "<group>"; };
+		8763CC3F443CCDF3CC761CFB3614B83B /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		878AA13F417BB06EA3FD7FB0B6AFB972 /* UITextField+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Localization.m"; path = "Pod/Classes/Views/Text/UITextField+Localization.m"; sourceTree = "<group>"; };
+		8A2F4D12BD158B0D3DA50492F600462B /* Pods-TalkTimeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TalkTimeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FFBCF1471210F051BA21CE73E97857E /* NSBundle+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Language.m"; path = "Pod/Classes/Utils/NSBundle+Language.m"; sourceTree = "<group>"; };
+		9460B14CBD3743CEA8C81B108DC214EF /* Pods-TalkTimeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TalkTimeTests.modulemap"; sourceTree = "<group>"; };
+		955387F2B9294EE5F9FB42FE069C8170 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		9652DC615CA7A7FE081F0BF67E96C238 /* Pods-TalkTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TalkTime.modulemap"; sourceTree = "<group>"; };
+		99353BF94E96DE3CABC699271367C6B7 /* Pods-TalkTime-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TalkTime-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99D228B5AE96CDCB20BC3EF24FA36F40 /* ResourceBundle-Loki-Loki-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Loki-Loki-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA5EDFAA5F8BB811130E22BC98479FDE /* Loki-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-prefix.pch"; sourceTree = "<group>"; };
+		AAE80A5F89A7E44C40CDDA3999B53CD8 /* LKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKManager.h; path = Pod/Classes/Models/LKManager.h; sourceTree = "<group>"; };
+		AAE84A594ECAFF4E5FE8A96187613B1E /* Pods-TalkTimeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TalkTimeTests-umbrella.h"; sourceTree = "<group>"; };
+		AE6E02917FCA16D111BC95F3CF8C6B80 /* UIButton+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Localization.h"; path = "Pod/Classes/Views/Controls/UIButton+Localization.h"; sourceTree = "<group>"; };
+		AEB771BC3AAAD4811E9C65C820828BF3 /* Pods-TalkTime-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TalkTime-resources.sh"; sourceTree = "<group>"; };
+		B2CD235275D849A4097E79C58BA9E8DB /* LKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKManager.m; path = Pod/Classes/Models/LKManager.m; sourceTree = "<group>"; };
+		BF8426592C447D91223329A5A07CF47C /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64_x86_64-simulator/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		C0E98997B9CA849EC40558A27EBB4DD2 /* UITextView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Localization.m"; path = "Pod/Classes/Views/Text/UITextView+Localization.m"; sourceTree = "<group>"; };
+		C1DD0B885EF2EB7FB33712A3E49D8602 /* Pods-TalkTimeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkTimeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4CAF0290BCAC17B5B83F839030EB13B /* UIView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Localization.h"; path = "Pod/Classes/Views/UIView+Localization.h"; sourceTree = "<group>"; };
+		C5E11D18A9480D69313CE57CB4D20A5C /* Swizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Swizzle.m; path = Pod/Classes/Utils/Swizzle.m; sourceTree = "<group>"; };
+		C5ECE3D3224C1FB6F90CCED1E1B572A4 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		C66170B57B8CFE262D7740FFAC06C3AC /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		C74F5E5CC7F384AE620FF7F9EE729968 /* Loki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loki.release.xcconfig; sourceTree = "<group>"; };
+		CD3961F6E7915B7B9C4A885060D7380C /* Loki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loki.debug.xcconfig; sourceTree = "<group>"; };
+		D041DC41763E56EC5C46E72D5A23B123 /* Loki-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loki-dummy.m"; sourceTree = "<group>"; };
+		D0B7E1BD7AB6F7B9B8C1A3DEF8661844 /* Pods-TalkTimeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TalkTimeTests-Info.plist"; sourceTree = "<group>"; };
+		D12BFF531A0C06E2B5A7FA6C274CDE50 /* Loki.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loki.modulemap; sourceTree = "<group>"; };
+		D81FF75FC0CD9CB8952710B8B626B483 /* GooglePlaces-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GooglePlaces-xcframeworks.sh"; sourceTree = "<group>"; };
+		DB88F6390BCE58A09EF1801274446562 /* Loki-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-umbrella.h"; sourceTree = "<group>"; };
+		DFCE45C650A3CBACCBF7624E3222DFAD /* UITextView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Localization.h"; path = "Pod/Classes/Views/Text/UITextView+Localization.h"; sourceTree = "<group>"; };
+		EBA80ACC4878D406930E3E2EAF85747A /* UISegmentedControl+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Localization.h"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.h"; sourceTree = "<group>"; };
+		EFB988377D5B41112D6A555755941E3C /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		F36B7E58A375B788140758BDD6936790 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CE02C97F808AA731019B59A9971970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC247AD1CA6997B255A1F0D67B1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED90AF5B4C29EB417E72A321B295ED4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A680457840A68A12A30186FE21E6E3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4EDB8B2566F8DEF4B3DE62E2C99D70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61158A1E9DCAA828E83B970F5910DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196D0341A167E24802A0AC5A5382F1B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2C7370A5EA22909F3DCA9518C5B15D /* Pods-TalkTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9460B14CBD3743CEA8C81B108DC214EF /* Pods-TalkTimeTests.modulemap */,
+				8A2F4D12BD158B0D3DA50492F600462B /* Pods-TalkTimeTests-acknowledgements.markdown */,
+				C1DD0B885EF2EB7FB33712A3E49D8602 /* Pods-TalkTimeTests-acknowledgements.plist */,
+				432DE33420936F78E8DECD0247BE5260 /* Pods-TalkTimeTests-dummy.m */,
+				40C0414DDA0B52152E74E8F04512C2FB /* Pods-TalkTimeTests-frameworks.sh */,
+				D0B7E1BD7AB6F7B9B8C1A3DEF8661844 /* Pods-TalkTimeTests-Info.plist */,
+				AAE84A594ECAFF4E5FE8A96187613B1E /* Pods-TalkTimeTests-umbrella.h */,
+				81E9FC6B9D793AE40C3CDD8027F14E70 /* Pods-TalkTimeTests.debug.xcconfig */,
+				397EEAE0CA562753845B0646198D458D /* Pods-TalkTimeTests.release.xcconfig */,
+			);
+			name = "Pods-TalkTimeTests";
+			path = "Target Support Files/Pods-TalkTimeTests";
+			sourceTree = "<group>";
+		};
+		193DF518087FE8D2E0B38EC5215EBB33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4619F1AB2A1BC437727F1CC3E9989703 /* GooglePlaces.bundle */,
+				BF8426592C447D91223329A5A07CF47C /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1E52346F7493D8561C557263BB0857B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81FF75FC0CD9CB8952710B8B626B483 /* GooglePlaces-xcframeworks.sh */,
+				8763CC3F443CCDF3CC761CFB3614B83B /* GooglePlaces.debug.xcconfig */,
+				43203206B5E4BF3DE8FDCA2E7E0D5592 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		27D229A4AA73358CF3D24F46B48190D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7007E0A7EBDB23F81AC6BA8673AD2AEF /* Pods-TalkTime */,
+				0E2C7370A5EA22909F3DCA9518C5B15D /* Pods-TalkTimeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C55338520BA24F417A2339774934ABE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12BFF531A0C06E2B5A7FA6C274CDE50 /* Loki.modulemap */,
+				D041DC41763E56EC5C46E72D5A23B123 /* Loki-dummy.m */,
+				3314A3B2502AFB628E1F22C8A95C090A /* Loki-Info.plist */,
+				AA5EDFAA5F8BB811130E22BC98479FDE /* Loki-prefix.pch */,
+				DB88F6390BCE58A09EF1801274446562 /* Loki-umbrella.h */,
+				CD3961F6E7915B7B9C4A885060D7380C /* Loki.debug.xcconfig */,
+				C74F5E5CC7F384AE620FF7F9EE729968 /* Loki.release.xcconfig */,
+				99D228B5AE96CDCB20BC3EF24FA36F40 /* ResourceBundle-Loki-Loki-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loki";
+			sourceTree = "<group>";
+		};
+		5FA7D1D864B61CDD3F2F1ACBF9992C89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5ECE3D3224C1FB6F90CCED1E1B572A4 /* GoogleMaps-xcframeworks.sh */,
+				955387F2B9294EE5F9FB42FE069C8170 /* GoogleMaps.debug.xcconfig */,
+				C66170B57B8CFE262D7740FFAC06C3AC /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		7007E0A7EBDB23F81AC6BA8673AD2AEF /* Pods-TalkTime */ = {
+			isa = PBXGroup;
+			children = (
+				9652DC615CA7A7FE081F0BF67E96C238 /* Pods-TalkTime.modulemap */,
+				99353BF94E96DE3CABC699271367C6B7 /* Pods-TalkTime-acknowledgements.markdown */,
+				1F5422AA5B7DEF07B9C58451FBCA41BA /* Pods-TalkTime-acknowledgements.plist */,
+				473006E3127073916D16C35008B012D1 /* Pods-TalkTime-dummy.m */,
+				3232709A7B31424706A03E64B949E1FA /* Pods-TalkTime-frameworks.sh */,
+				0A661749E34D2757DC8A9B317AB81FAC /* Pods-TalkTime-Info.plist */,
+				AEB771BC3AAAD4811E9C65C820828BF3 /* Pods-TalkTime-resources.sh */,
+				25492395FEE2C46ED18ED2C6AB71C9C2 /* Pods-TalkTime-umbrella.h */,
+				7CDC9B932503480DA0B0F4A3B31B4566 /* Pods-TalkTime.debug.xcconfig */,
+				79D2613A51BB19A53B086B815D47E6FC /* Pods-TalkTime.release.xcconfig */,
+			);
+			name = "Pods-TalkTime";
+			path = "Target Support Files/Pods-TalkTime";
+			sourceTree = "<group>";
+		};
+		71D0D5E3F9CB1D7A614FF25AE55B5AB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B00168678FE0B8DEFDB76535BF514EA9 /* GoogleMaps */,
+				E59DF175AD07AB517EE64B4CDF222662 /* GooglePlaces */,
+				AD6A58C367018C518E8092682BB8FBAF /* Loki */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7425F3296E1A40576D40FC34BACF6C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80931FB93268959A83BADB82D753151D /* Loki */,
+				7E013585B77C67CC5D54BFE97035C14E /* Loki-Loki */,
+				48BBC9A94A88C3AAEC906794619D289B /* Pods-TalkTime */,
+				3F40109D763E5D5A66F24633B22F3E55 /* Pods-TalkTimeTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF0E7EC3DEDE62D61BD4BE74447E11E /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				9905F58678C8F323FEB34C51AE63A4E9 /* Frameworks */,
+				E6763CDDEB8ABE337C412452126C7B58 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		96B350AF509A0B5E334353B00A49A72B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED4C04DABC4656C2407564424FBD7B99 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9905F58678C8F323FEB34C51AE63A4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB988377D5B41112D6A555755941E3C /* GoogleMaps.xcframework */,
+				F36B7E58A375B788140758BDD6936790 /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6A58C367018C518E8092682BB8FBAF /* Loki */ = {
+			isa = PBXGroup;
+			children = (
+				23595A44BF709E61669184C3E6291F91 /* LKLanguage.h */,
+				2E540FF1262676F87986C87A4B032134 /* LKLanguage.m */,
+				AAE80A5F89A7E44C40CDDA3999B53CD8 /* LKManager.h */,
+				B2CD235275D849A4097E79C58BA9E8DB /* LKManager.m */,
+				86101EEAF283109C8C818873D03B89EA /* Loki.h */,
+				2AAB45382059C71FCF6A4D27663FFE4C /* NSBundle+Language.h */,
+				8FFBCF1471210F051BA21CE73E97857E /* NSBundle+Language.m */,
+				3A697EC4AA16C923A934D5C47AB9B199 /* Swizzle.h */,
+				C5E11D18A9480D69313CE57CB4D20A5C /* Swizzle.m */,
+				7266BA828C05D76B1298401259CEF589 /* UIBarButtonItem+Localization.h */,
+				1B8594385F057FF515104B61DDCCA4D9 /* UIBarButtonItem+Localization.m */,
+				AE6E02917FCA16D111BC95F3CF8C6B80 /* UIButton+Localization.h */,
+				5FD44CC775FB9A465FE74D722EFD619E /* UIButton+Localization.m */,
+				3C4AFE12F8B1FF1EA43332ADCE972598 /* UILabel+Localization.h */,
+				0C9F3F4AC2393A0E073C6724D8D51413 /* UILabel+Localization.m */,
+				EBA80ACC4878D406930E3E2EAF85747A /* UISegmentedControl+Localization.h */,
+				808EC83EFE97A6B2799F1C209FCDD36D /* UISegmentedControl+Localization.m */,
+				263751AC89369A62B48842B829EC9185 /* UITextField+Localization.h */,
+				878AA13F417BB06EA3FD7FB0B6AFB972 /* UITextField+Localization.m */,
+				DFCE45C650A3CBACCBF7624E3222DFAD /* UITextView+Localization.h */,
+				C0E98997B9CA849EC40558A27EBB4DD2 /* UITextView+Localization.m */,
+				C4CAF0290BCAC17B5B83F839030EB13B /* UIView+Localization.h */,
+				773449F56770426A460B472B2D4B5D35 /* UIView+Localization.m */,
+				77A2C737F33DAFBFF05F56B91FD5485B /* UIViewController+Localization.h */,
+				3CFD370F18233B02D66930839479A822 /* UIViewController+Localization.m */,
+				5C55338520BA24F417A2339774934ABE /* Support Files */,
+			);
+			name = Loki;
+			path = Loki;
+			sourceTree = "<group>";
+		};
+		B00168678FE0B8DEFDB76535BF514EA9 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				96B350AF509A0B5E334353B00A49A72B /* Base */,
+				8DF0E7EC3DEDE62D61BD4BE74447E11E /* Maps */,
+				5FA7D1D864B61CDD3F2F1ACBF9992C89 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C890B619081CC09578B115A2D41EE754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FBBAA65518A3AD2E062D12EC14CC468 /* GooglePlaces.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				71D0D5E3F9CB1D7A614FF25AE55B5AB6 /* Pods */,
+				7425F3296E1A40576D40FC34BACF6C90 /* Products */,
+				27D229A4AA73358CF3D24F46B48190D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59DF175AD07AB517EE64B4CDF222662 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				C890B619081CC09578B115A2D41EE754 /* Frameworks */,
+				193DF518087FE8D2E0B38EC5215EBB33 /* Resources */,
+				1E52346F7493D8561C557263BB0857B6 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		E6763CDDEB8ABE337C412452126C7B58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C75560244CA31C1AF423E772CA547 /* GoogleMaps.bundle */,
+				7546E6CF22BDEDA1D78F20DD5ABB397A /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ED4C04DABC4656C2407564424FBD7B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F453AC3EBA611660952B02B0BD4A7D7 /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		295E418E0C5683609C6A4CB3E66301F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E735F9D49B15FA1534B933DA5651252 /* Pods-TalkTime-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C016BCF1392178C113D1513FA21B53B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF78A63E3A3B7CC57BC7121728B0FB2 /* Pods-TalkTimeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC032C16F813B1886D72C6355A77B814 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F7CD10E8D400AC772D86C2DE9780E9 /* LKLanguage.h in Headers */,
+				880F2563FFEB7F4D5829FF180216C8F4 /* LKManager.h in Headers */,
+				A3D291B470579087A76B29A7EFFB432A /* Loki.h in Headers */,
+				E939696E199E7A5188176EF195A8A86F /* Loki-umbrella.h in Headers */,
+				5F97A6CE948DAA598EC12E2CF580C34E /* NSBundle+Language.h in Headers */,
+				42E3ACE90896F36A8037F25C744B1E00 /* Swizzle.h in Headers */,
+				EF5E59081CE92822AB466CEDF82EC7F8 /* UIBarButtonItem+Localization.h in Headers */,
+				E9B4064D0E09CEB49AA14170D1F24C6C /* UIButton+Localization.h in Headers */,
+				AA3423C5D275A627ECFB8395530EE16B /* UILabel+Localization.h in Headers */,
+				98F27A868C03773D05DA8754A08F0663 /* UISegmentedControl+Localization.h in Headers */,
+				3F610E3B6095FD8F046F1FD981AF0569 /* UITextField+Localization.h in Headers */,
+				03ADABCFE9692A835965DC9358D741D9 /* UITextView+Localization.h in Headers */,
+				3600CED9A12A156CDBBF7200638ABEED /* UIView+Localization.h in Headers */,
+				52AC2E7C0E58CBD8990EB7BE11FCDF2F /* UIViewController+Localization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22FEF53517593967E5778EB50959F9FB /* Loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BBA33B3C9B9EFF16FE43A8AD23FF29 /* Build configuration list for PBXNativeTarget "Loki" */;
+			buildPhases = (
+				FC032C16F813B1886D72C6355A77B814 /* Headers */,
+				9EE2B48EA74D33DDBAB2EE681ED79A2E /* Sources */,
+				E61158A1E9DCAA828E83B970F5910DEC /* Frameworks */,
+				D2041715B43C1ADE7903FE76DF8C9629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0040E922088B8B3FF0C482C811B962 /* PBXTargetDependency */,
+			);
+			name = Loki;
+			productName = Loki;
+			productReference = 80931FB93268959A83BADB82D753151D /* Loki */;
+			productType = "com.apple.product-type.framework";
+		};
+		99FFF51734503574395A5A3BDF680DAC /* Pods-TalkTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB3E83465E095D7D680E5E985A03EA0 /* Build configuration list for PBXNativeTarget "Pods-TalkTimeTests" */;
+			buildPhases = (
+				C016BCF1392178C113D1513FA21B53B4 /* Headers */,
+				2C955E042580AD4D6C0A2AADEAECD2F1 /* Sources */,
+				A680457840A68A12A30186FE21E6E3D3 /* Frameworks */,
+				EEA854A874E6C62B43F716BC44698FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4221DFF05FBDE3F794CDBABD71E35A35 /* PBXTargetDependency */,
+			);
+			name = "Pods-TalkTimeTests";
+			productName = Pods_TalkTimeTests;
+			productReference = 3F40109D763E5D5A66F24633B22F3E55 /* Pods-TalkTimeTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E8967C8A2DCD05B408C5EC50B65E4C /* Pods-TalkTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABE5E2A8C6570E346847A614C2F4545 /* Build configuration list for PBXNativeTarget "Pods-TalkTime" */;
+			buildPhases = (
+				295E418E0C5683609C6A4CB3E66301F6 /* Headers */,
+				0EFC70C77423F4400D74A041A79B2FF5 /* Sources */,
+				2A3AC247AD1CA6997B255A1F0D67B1F1 /* Frameworks */,
+				9B04A1E802DB150DD68F0A6D8282D3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B746D1E77138DFF50DA47285043FA265 /* PBXTargetDependency */,
+				6F2F4906D874675C0FD3AA225E9641AF /* PBXTargetDependency */,
+				1FF8FC7A99C1D0C47550851D16AC6D19 /* PBXTargetDependency */,
+			);
+			name = "Pods-TalkTime";
+			productName = Pods_TalkTime;
+			productReference = 48BBC9A94A88C3AAEC906794619D289B /* Pods-TalkTime */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF6E62B1D9A03FBE672D5FE8C009E80D /* Loki-Loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38283216B1EA69FDD03A1DE660AD43EA /* Build configuration list for PBXNativeTarget "Loki-Loki" */;
+			buildPhases = (
+				4AAD88D36BA3A8FDFAF0019E1575A44D /* Sources */,
+				26CE02C97F808AA731019B59A9971970 /* Frameworks */,
+				56784C8E567E2F480FA3486BEA928AC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loki-Loki";
+			productName = Loki;
+			productReference = 7E013585B77C67CC5D54BFE97035C14E /* Loki-Loki */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7425F3296E1A40576D40FC34BACF6C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				22FEF53517593967E5778EB50959F9FB /* Loki */,
+				DF6E62B1D9A03FBE672D5FE8C009E80D /* Loki-Loki */,
+				A8E8967C8A2DCD05B408C5EC50B65E4C /* Pods-TalkTime */,
+				99FFF51734503574395A5A3BDF680DAC /* Pods-TalkTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56784C8E567E2F480FA3486BEA928AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B04A1E802DB150DD68F0A6D8282D3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2041715B43C1ADE7903FE76DF8C9629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15658B2F2CB63EBC7B4EC63945BE53 /* Loki-Loki in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA854A874E6C62B43F716BC44698FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CD95BCB8E6BD0E25A59C4281A19269A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GooglePlaces/GooglePlaces-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFC70C77423F4400D74A041A79B2FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C353D70B98EF71C7FD549A969342AB84 /* Pods-TalkTime-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C955E042580AD4D6C0A2AADEAECD2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401ABC41DD7B9B1E63041C57B953AE5 /* Pods-TalkTimeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAD88D36BA3A8FDFAF0019E1575A44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE2B48EA74D33DDBAB2EE681ED79A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5426152E6F79F20A47B26091DC94E2D /* LKLanguage.m in Sources */,
+				39515259D61216D8A3A367AA20609CFA /* LKManager.m in Sources */,
+				FA18D5E8FDCD47FEADBDC9CAF089F57E /* Loki-dummy.m in Sources */,
+				72633C9FCE018BB91EFE5E9BD8CD1634 /* NSBundle+Language.m in Sources */,
+				F7E34F14D113B22A772AB46431425223 /* Swizzle.m in Sources */,
+				955CCB2A67E2A5FB44CBC67A336342FD /* UIBarButtonItem+Localization.m in Sources */,
+				DAFEBC185D91CA8847AD95C5640ABCE2 /* UIButton+Localization.m in Sources */,
+				9E96BBE06478C5205B012F994CD34380 /* UILabel+Localization.m in Sources */,
+				418467F02CB81E94AAACD78FFC39F6A0 /* UISegmentedControl+Localization.m in Sources */,
+				E2C730199D6AF2FE57A2AE8C6ED419B0 /* UITextField+Localization.m in Sources */,
+				B085D34DF932D2EC7DFBF49FBC60DBAF /* UITextView+Localization.m in Sources */,
+				17C466664F062855A1DF911CC275E934 /* UIView+Localization.m in Sources */,
+				D355525B84134FC0C750F8E3D8A94026 /* UIViewController+Localization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF8FC7A99C1D0C47550851D16AC6D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loki;
+			target = 22FEF53517593967E5778EB50959F9FB /* Loki */;
+			targetProxy = B3C0E39181E8C92F836E840B19EC4B5D /* PBXContainerItemProxy */;
+		};
+		4221DFF05FBDE3F794CDBABD71E35A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loki;
+			target = 22FEF53517593967E5778EB50959F9FB /* Loki */;
+			targetProxy = 0EF18EFEE2BC409BA2613C956CDAEDD5 /* PBXContainerItemProxy */;
+		};
+		6E0040E922088B8B3FF0C482C811B962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Loki-Loki";
+			target = DF6E62B1D9A03FBE672D5FE8C009E80D /* Loki-Loki */;
+			targetProxy = 63EAA429269E5341721F56CC9A2E11DB /* PBXContainerItemProxy */;
+		};
+		6F2F4906D874675C0FD3AA225E9641AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 4AD816D74F47C1081AE522F72A9F44DB /* PBXContainerItemProxy */;
+		};
+		B746D1E77138DFF50DA47285043FA265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 229D36B0DADF94198BB5F1E53AF9D2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E4FBEF25DBF25F51C2B183360A11B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8763CC3F443CCDF3CC761CFB3614B83B /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216A65D2080F16B130AA66217C6F2E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43203206B5E4BF3DE8FDCA2E7E0D5592 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29676C140CEF2DBA98C32F558C26FA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74F5E5CC7F384AE620FF7F9EE729968 /* Loki.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				IBSC_MODULE = Loki;
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		391152ACF19D9E642218E0F94C006DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74F5E5CC7F384AE620FF7F9EE729968 /* Loki.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Loki-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				PRODUCT_MODULE_NAME = Loki;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39E3A0A3ACC3973333ADA1922550209D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3961F6E7915B7B9C4A885060D7380C /* Loki.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				IBSC_MODULE = Loki;
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CB6C54399ECA813DDE5BDD02688E2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3961F6E7915B7B9C4A885060D7380C /* Loki.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Loki-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				PRODUCT_MODULE_NAME = Loki;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		816FD0F5A01915B4C6E2F4D8628DD20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E9FC6B9D793AE40C3CDD8027F14E70 /* Pods-TalkTimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkTimeTests/Pods-TalkTimeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkTimeTests/Pods-TalkTimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		999E9376840A6F537CABCC7950B79F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397EEAE0CA562753845B0646198D458D /* Pods-TalkTimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkTimeTests/Pods-TalkTimeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkTimeTests/Pods-TalkTimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0D32A92267F8EB045540F58A3FB9721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66170B57B8CFE262D7740FFAC06C3AC /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955387F2B9294EE5F9FB42FE069C8170 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D620FCCCBCB4F3C55B985A40383347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D2613A51BB19A53B086B815D47E6FC /* Pods-TalkTime.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkTime/Pods-TalkTime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkTime/Pods-TalkTime.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6A1273576A446D56CDD2BBE706D1D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDC9B932503480DA0B0F4A3B31B4566 /* Pods-TalkTime.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TalkTime/Pods-TalkTime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TalkTime/Pods-TalkTime.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3490A4869E5596F395557AF5A226555B /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4FBEF25DBF25F51C2B183360A11B3C /* Debug */,
+				216A65D2080F16B130AA66217C6F2E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38283216B1EA69FDD03A1DE660AD43EA /* Build configuration list for PBXNativeTarget "Loki-Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E3A0A3ACC3973333ADA1922550209D /* Debug */,
+				29676C140CEF2DBA98C32F558C26FA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */,
+				A0D32A92267F8EB045540F58A3FB9721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB3E83465E095D7D680E5E985A03EA0 /* Build configuration list for PBXNativeTarget "Pods-TalkTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816FD0F5A01915B4C6E2F4D8628DD20A /* Debug */,
+				999E9376840A6F537CABCC7950B79F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABE5E2A8C6570E346847A614C2F4545 /* Build configuration list for PBXNativeTarget "Pods-TalkTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A1273576A446D56CDD2BBE706D1D66 /* Debug */,
+				D4D620FCCCBCB4F3C55B985A40383347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BBA33B3C9B9EFF16FE43A8AD23FF29 /* Build configuration list for PBXNativeTarget "Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB6C54399ECA813DDE5BDD02688E2D8 /* Debug */,
+				391152ACF19D9E642218E0F94C006DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

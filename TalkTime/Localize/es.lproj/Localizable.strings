@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  TalkTime
+
+  Created by Talor Levy on 3/12/23.
+  
+*/
+
+"SignInString_emailPlaceholder" = "correo electrónico";
+"SignInString_passwordPlaceholder" = "contraseña";
+"SignInString_signInButton" = "firmar";
+"SignInString_signUpButton" = "inscribirse";
+"SignInString_facebookButton" = "continuar con Facebook";
+"SignInString_googleButton" = "continuar con Google";
+
+"SignUpString_getStartedLabel" = "empezar!";
+"SignUpString_usernamePlaceholder" = "nombre de usuario";
+"SignUpString_firstNamePlaceholder" = "nombre de pila";
+"SignUpString_lastNamePlaceholder" = "apellido";
+"SignUpString_emailPlaceholder" = "correo electrónico";
+"SignUpString_phonePlaceholder" = "teléfono";
+"SignUpString_passwordPlaceholder" = "contraseña";
+"SignUpString_confirmPasswordPlaceholder" = "confirmar contraseña";
+"SignUpString_dateOfBirthLabel" = "fecha de nacimiento:";
+"SignUpString_maleLabel" = "masculino";
+"SignUpString_femaleLabel" = "femenina";
+"SignUpString_signUpButton" = "inscribirse";
+
+"MainTabBarControllerString_homeTab" = "hogar";
+"MainTabBarControllerString_messageTab" = "mensaje";
+"MainTabBarControllerString_postTab" = "correo";
+"MainTabBarControllerString_searchTab" = "buscar";
+"MainTabBarControllerString_settingsTab" = "ajustes";
+
+"PostString_postTextFieldPlaceholder" = "ingrese la descripción de su publicación aquí";
+"PostString_postButton" = "publicar";
+
+"SettingsString_profileButton" = "perfil";
+"SettingsString_languageButton" = "idioma";
+"SettingsString_signOutButton" = "cerrar sesión";
+
+"LanguageString_englishButton" = "inglés";
+"LanguageString_spanishButton" = "español";
+"LanguageString_germanButton" = "alemán";
+
+"ProfileString_profileLabel" = "perfil";
+"ProfileString_firstNamePlaceholder" = "nombre de pila";
+"ProfileString_lastNamePlaceholder" = "apellido";
+"ProfileString_phonePlaceholder" = "teléfono";
+"ProfileString_myLocationButton" = "mi ubicacion";
+"ProfileString_maleLabel" = "masculino";
+"ProfileString_femaleLabel" = "femenina";
+"ProfileString_saveButton" = "ahorrar";
+
+"GoogleMapsString_saveLocationButton" = "guardar dirección";
+
+"ImagePickerString_camera" = "cámara";
+"ImagePickerString_gallery" = "galería";
+"ImagePickerString_cancel" = "cancelar";
+
+"WarningString_warning" = "advertencia";
+"WarningString_ok" = "de acuerdo";
+"WarningString_forgotFirstName" = "por favor, introduzca su nombre de pila.";
+"WarningString_forgotLastName" = "por favor ingrese su apellido.";
+"WarningString_forgotFirstAndLastName" = "por favor introduce tu primer nombre y apellido.";
+"WarningString_invalidEmail" = "por favor introduzca una dirección de correo electrónico válida.";
+"WarningString_invalidPhone" = "por favor ingrese un número de teléfono válido.";
+"WarningString_forgotPassword" = "por favor ingrese una contraseña.";
+"WarningString_confirmPasswordDoesNotMatch" = "la contraseña y la contraseña de confirmación no coinciden.";
+"WarningString_invalidDateOfBirth" = "por favor ingresa una fecha de nacimiento valida.";
+"WarningString_forgotGender" = "por favor elige tu género.";
+"WarningString_usernameExists" = "el nombre de usuario ya existe, ¡elija un nombre de usuario diferente.";

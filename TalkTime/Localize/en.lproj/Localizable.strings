@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  TalkTime
+
+  Created by Talor Levy on 3/12/23.
+  
+*/
+
+"SignInString_emailPlaceholder" = "email";
+"SignInString_passwordPlaceholder" = "password";
+"SignInString_signInButton" = "sign in";
+"SignInString_signUpButton" = "sign up";
+"SignInString_facebookButton" = "continue with Facebook";
+"SignInString_googleButton" = "continue with Google";
+
+"SignUpString_getStartedLabel" = "get started!";
+"SignUpString_usernamePlaceholder" = "username";
+"SignUpString_firstNamePlaceholder" = "first name";
+"SignUpString_lastNamePlaceholder" = "last name";
+"SignUpString_emailPlaceholder" = "email";
+"SignUpString_phonePlaceholder" = "phone";
+"SignUpString_passwordPlaceholder" = "password";
+"SignUpString_confirmPasswordPlaceholder" = "confirm password";
+"SignUpString_dateOfBirthLabel" = "date of birth:";
+"SignUpString_maleLabel" = "male";
+"SignUpString_femaleLabel" = "female";
+"SignUpString_signUpButton" = "sign up";
+
+"MainTabBarControllerString_homeTab" = "home";
+"MainTabBarControllerString_messageTab" = "message";
+"MainTabBarControllerString_postTab" = "post";
+"MainTabBarControllerString_searchTab" = "search";
+"MainTabBarControllerString_settingsTab" = "settings";
+
+"PostString_postTextFieldPlaceholder" = "enter your post description here";
+"PostString_postButton" = "post";
+
+"SettingsString_profileButton" = "profile";
+"SettingsString_languageButton" = "language";
+"SettingsString_signOutButton" = "sign out";
+
+"LanguageString_englishButton" = "english";
+"LanguageString_spanishButton" = "spanish";
+"LanguageString_germanButton" = "german";
+
+"ProfileString_profileLabel" = "profile";
+"ProfileString_firstNamePlaceholder" = "first name";
+"ProfileString_lastNamePlaceholder" = "last name";
+"ProfileString_phonePlaceholder" = "phone";
+"ProfileString_myLocationButton" = "my location";
+"ProfileString_maleLabel" = "male";
+"ProfileString_femaleLabel" = "female";
+"ProfileString_saveButton" = "save";
+
+"GoogleMapsString_saveLocationButton" = "save location";
+
+"ImagePickerString_camera" = "camera";
+"ImagePickerString_gallery" = "gallery";
+"ImagePickerString_cancel" = "cancel";
+
+"WarningString_warning" = "warning";
+"WarningString_ok" = "ok";
+"WarningString_forgotFirstName" = "please enter your first name.";
+"WarningString_forgotLastName" = "please enter your last name.";
+"WarningString_forgotFirstAndLastName" = "please enter your first and last name.";
+"WarningString_invalidEmail" = "please enter a valid email.";
+"WarningString_invalidPhone" = "please enter a valid phone number.";
+"WarningString_forgotPassword" = "please enter a password.";
+"WarningString_confirmPasswordDoesNotMatch" = "password and confirmation password do not match.";
+"WarningString_invalidDateOfBirth" = "please enter a valid date of birth.";
+"WarningString_forgotGender" = "please choose your gender.";
+"WarningString_usernameExists" = "username already exists, please choose a different username.";

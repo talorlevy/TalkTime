@@ -1,0 +1,15 @@
+//
+//  LanguageViewController.swift
+//  TalkTime
+//
+//  Created by Talor Levy on 4/1/23.
+//
+
+import UIKit
+
+class LanguageViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
