@@ -1,6 +1,0 @@
-framework module Pods_TalkTime {
-  umbrella header "Pods-TalkTime-umbrella.h"
-
-  export *
-  module * { export * }
-}
