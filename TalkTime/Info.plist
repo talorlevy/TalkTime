@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location is used to store in your profile and help you connect with friends in similar locations.</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -11,7 +9,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.7305853111-38usc6adol14m8drve6hutcchsb416pc</string>
+				<string>com.googleusercontent.apps.506839633716-b3lsdsdldtf3soi7f5ljdt4cjfptlss7</string>
 			</array>
 		</dict>
 		<dict>
