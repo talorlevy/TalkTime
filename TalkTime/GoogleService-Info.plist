@@ -3,32 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>7305853111-38usc6adol14m8drve6hutcchsb416pc.apps.googleusercontent.com</string>
+	<string>506839633716-b3lsdsdldtf3soi7f5ljdt4cjfptlss7.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.7305853111-38usc6adol14m8drve6hutcchsb416pc</string>
+	<string>com.googleusercontent.apps.506839633716-b3lsdsdldtf3soi7f5ljdt4cjfptlss7</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB7s4OHnI0ughiVEt4BAjTyKj__5umGzRA</string>
+	<string>AIzaSyBh-KrrjDcpJ_fqbGKP4nRSU-RzHHwsb0w</string>
 	<key>GCM_SENDER_ID</key>
-	<string>7305853111</string>
+	<string>506839633716</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.TL.TalkTime</string>
 	<key>PROJECT_ID</key>
-	<string>talktime-dad91</string>
+	<string>talktime-58264</string>
 	<key>STORAGE_BUCKET</key>
-	<string>talktime-dad91.appspot.com</string>
+	<string>talktime-58264.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:7305853111:ios:9beba260b0c89d80a57532</string>
+	<string>1:506839633716:ios:91ab58ebb31e93f3a4df61</string>
 </dict>
 </plist>
