@@ -26,17 +26,14 @@ extension SignInViewController {
     }
     
     func checkIfLoggedIn() {
-        DispatchQueue.global(qos: .userInteractive).async { [weak self] in
+        DispatchQueue.main.async { [weak self] in
             self?.signInViewModel?.isLoggedIn() { result in
-                guard let self = self else { return }
-                DispatchQueue.main.async {
-                    switch result {
-                    case .success():
-                        guard let vc = UIStoryboard(name: "SignedIn", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController else { return }
-                        self.setRootViewController(vc: vc)
-                    case .failure(let error):
-                        print("Error fetching user at SignInViewController: \(error.localizedDescription)")
-                    }
+                switch result {
+                case .success():
+                    guard let vc = UIStoryboard(name: "SignedIn", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController else { return }
+                    self?.setRootViewController(vc: vc)
+                case .failure(let error):
+                    print("Error fetching user at SignInViewController: \(error.localizedDescription)")
                 }
             }
         }
@@ -52,16 +49,14 @@ extension SignInViewController {
     }
     
     func emailSignIn() {
-        let email = emailTextField.text ?? ""
-        let password = passwordTextField.text ?? ""
-        signInViewModel?.signInWithEmail(email: email, password: password) { [weak self] result in
-            guard let self = self else { return }
-            DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            let email = self?.emailTextField.text ?? ""
+            let password = self?.passwordTextField.text ?? ""
+            self?.signInViewModel?.signInWithEmail(email: email, password: password) { result in
                 switch result {
                 case .success():
-                    print("Success fetching user at SignInViewController")
                     guard let vc = UIStoryboard(name: "SignedIn", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController else { return }
-                    self.setRootViewController(vc: vc)
+                    self?.setRootViewController(vc: vc)
                 case .failure(let error):
                     print("Error fetching user at SignInViewController: \(error)")
                 }
@@ -70,14 +65,12 @@ extension SignInViewController {
     }
     
     func signInWithGoogle() {
-        signInViewModel?.signInWithGoogle() { [weak self] result in
-            guard let self = self else { return }
-            DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            self?.signInViewModel?.signInWithGoogle() { result in
                 switch result {
                 case .success():
-                    print("Success fetching user at SignInViewController")
                     guard let vc = UIStoryboard(name: "SignedIn", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController else { return }
-                    self.setRootViewController(vc: vc)
+                    self?.setRootViewController(vc: vc)
                 case .failure(let error):
                     print("Error fetching user at SignInViewController: \(error)")
                 }
@@ -86,14 +79,12 @@ extension SignInViewController {
     }
     
     func signInWithFacebook() {
-        signInViewModel?.signInWithFacebook() { [weak self] result in
-            guard let self = self else { return }
-            DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            self?.signInViewModel?.signInWithFacebook() { result in
                 switch result {
                 case .success():
-                    print("Success fetching user at SignInViewController")
                     guard let vc = UIStoryboard(name: "SignedIn", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController else { return }
-                    self.setRootViewController(vc: vc)
+                    self?.setRootViewController(vc: vc)
                 case .failure(let error):
                     print("Error fetching user at SignInViewController: \(error.localizedDescription)")
                 }

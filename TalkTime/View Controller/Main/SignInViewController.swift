@@ -25,9 +25,8 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var facebookButton: UIButton!
     @IBOutlet weak var googleButton: UIButton!
-
     
-    //MARK: - override
+    //MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
