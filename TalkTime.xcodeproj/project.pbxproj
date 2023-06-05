@@ -80,6 +80,7 @@
 		8EC460EA29CB560E00EEBEF3 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC460E929CB560E00EEBEF3 /* SettingsViewModelTests.swift */; };
 		8EC460F229CB614D00EEBEF3 /* ProfileViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC460F129CB614D00EEBEF3 /* ProfileViewModelTests.swift */; };
 		8EC5D43129CBA84D00ADA223 /* GoogleMapsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5D43029CBA84D00ADA223 /* GoogleMapsViewModelTests.swift */; };
+		8EC6D0692A2E7EA60097CB0D /* SignInViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6D0682A2E7EA60097CB0D /* SignInViewControllerExtension.swift */; };
 		8EC8840A29BE2E27007B3878 /* SignInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8840929BE2E27007B3878 /* SignInString.swift */; };
 		8EC8841029BE2F28007B3878 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8841229BE2F28007B3878 /* Localizable.strings */; };
 		8EC8841629BE2F86007B3878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8841529BE2F86007B3878 /* Main.storyboard */; };
@@ -211,6 +212,7 @@
 		8EC460E929CB560E00EEBEF3 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
 		8EC460F129CB614D00EEBEF3 /* ProfileViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModelTests.swift; sourceTree = "<group>"; };
 		8EC5D43029CBA84D00ADA223 /* GoogleMapsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewModelTests.swift; sourceTree = "<group>"; };
+		8EC6D0682A2E7EA60097CB0D /* SignInViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewControllerExtension.swift; sourceTree = "<group>"; };
 		8EC8840929BE2E27007B3878 /* SignInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInString.swift; sourceTree = "<group>"; };
 		8EC8841129BE2F28007B3878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8EC8841329BE2F3C007B3878 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 			children = (
 				8EC8845729BE31B2007B3878 /* SignInViewController.swift */,
 				8EC8845429BE31B2007B3878 /* SignUpViewController.swift */,
+				8EC6D06A2A2E7F1A0097CB0D /* Extension */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -483,8 +486,8 @@
 				8EC8848529BE3217007B3878 /* Extension */,
 				8EC8848229BE31F7007B3878 /* Constant */,
 				8EC8849329BE327B007B3878 /* Local Data */,
-				8EC8847B29BE31E4007B3878 /* API Handler */,
 				8EC8849629BE328D007B3878 /* Model */,
+				8EC8847B29BE31E4007B3878 /* API Handler */,
 				8EC8846429BE31BA007B3878 /* View Model */,
 				8EC8840D29BE2E53007B3878 /* View Controller */,
 				8EC8840C29BE2E3D007B3878 /* Storyboard */,
@@ -510,6 +513,14 @@
 				8E5911F229CA091300BF3BB1 /* FirebaseDatabaseManagerTests.swift */,
 			);
 			path = "API Tests";
+			sourceTree = "<group>";
+		};
+		8EC6D06A2A2E7F1A0097CB0D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8EC6D0682A2E7EA60097CB0D /* SignInViewControllerExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8EC8840829BE2E19007B3878 /* Delegates */ = {
@@ -1031,6 +1042,7 @@
 				8EC8845A29BE31B3007B3878 /* DeleteEditProfileViewController.swift in Sources */,
 				8E7077D929D8B7DD00C20272 /* EditGenderViewController.swift in Sources */,
 				8EC8847829BE31D7007B3878 /* SearchViewModel.swift in Sources */,
+				8EC6D0692A2E7EA60097CB0D /* SignInViewControllerExtension.swift in Sources */,
 				8EC8846329BE31B3007B3878 /* SearchViewController.swift in Sources */,
 				8EC8846129BE31B3007B3878 /* MainTabBarController.swift in Sources */,
 				8E88B2F229C615D80099E749 /* MainTabBarViewModel.swift in Sources */,
