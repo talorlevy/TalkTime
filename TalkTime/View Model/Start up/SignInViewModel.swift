@@ -146,7 +146,7 @@ class SignInViewModel {
                         case .success(let existingUsernames):
                             print("Success fetching all usernames at SignInViewModel")
                             var foundUniqueUsername: Bool = false
-                            var uniqueUsername: String = "ben123"
+                            var uniqueUsername: String = Generator.generateUsername()
                             while foundUniqueUsername == false {
                                 if !existingUsernames.contains(uniqueUsername) {
                                     foundUniqueUsername = true
