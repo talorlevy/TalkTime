@@ -67,6 +67,7 @@
 		8E8901F029BE2B06006D2A27 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8901EF29BE2B06006D2A27 /* FacebookLogin */; };
 		8E8901F329BE2B23006D2A27 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8901F229BE2B23006D2A27 /* GoogleSignIn */; };
 		8E8901F529BE2B23006D2A27 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8901F429BE2B23006D2A27 /* GoogleSignInSwift */; };
+		8E8BD7FD2A30FEB400081B03 /* SignUpViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BD7FC2A30FEB400081B03 /* SignUpViewControllerExtension.swift */; };
 		8E8C33C929C248EC00BD0C13 /* MainTabBarControllerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C33C829C248EC00BD0C13 /* MainTabBarControllerString.swift */; };
 		8EA3428D29D60EB0004A757E /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3428C29D60EB0004A757E /* Generator.swift */; };
 		8EB4FA6C29CA25D300B53B5D /* SignInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4FA6B29CA25D300B53B5D /* SignInViewModelTests.swift */; };
@@ -199,6 +200,7 @@
 		8E8901E129BE2A1A006D2A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E8901E429BE2A1A006D2A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8901E629BE2A1A006D2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8BD7FC2A30FEB400081B03 /* SignUpViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerExtension.swift; sourceTree = "<group>"; };
 		8E8C33C829C248EC00BD0C13 /* MainTabBarControllerString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControllerString.swift; sourceTree = "<group>"; };
 		8EA3428C29D60EB0004A757E /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		8EB4FA6B29CA25D300B53B5D /* SignInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelTests.swift; sourceTree = "<group>"; };
@@ -519,6 +521,7 @@
 			isa = PBXGroup;
 			children = (
 				8EC6D0682A2E7EA60097CB0D /* SignInViewControllerExtension.swift */,
+				8E8BD7FC2A30FEB400081B03 /* SignUpViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -1009,6 +1012,7 @@
 				8E1E0B1429C661CF00144B1E /* ImageProvider.swift in Sources */,
 				8EBD5DEB29BEBEF200DCCD3F /* WarningString.swift in Sources */,
 				8ED3AE2229D8798F00DA08B6 /* SettingsViewController.swift in Sources */,
+				8E8BD7FD2A30FEB400081B03 /* SignUpViewControllerExtension.swift in Sources */,
 				8EEED93A29BE3F34003C67F2 /* LanguageString.swift in Sources */,
 				8EC8847429BE31D7007B3878 /* SignInViewModel.swift in Sources */,
 				8EEED92C29BE3EE4003C67F2 /* MessageString.swift in Sources */,
