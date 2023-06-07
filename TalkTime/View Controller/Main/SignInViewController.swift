@@ -5,12 +5,7 @@
 //  Created by Talor Levy on 2/23/23.
 //
 
-import FacebookLogin
-import FirebaseAuth
-import FirebaseCore
-import GoogleSignIn
 import UIKit
-
 
 class SignInViewController: UIViewController {
     
@@ -46,7 +41,6 @@ class SignInViewController: UIViewController {
     @IBAction func signInButtonAction(_ sender: Any) {
         emailSignIn()
     }
-    
     
     @IBAction func signInToGoogleButtonAction(_ sender: Any) {
         signInWithGoogle()

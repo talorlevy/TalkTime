@@ -36,7 +36,6 @@ class SignInViewModel {
                             completion(.success(()))
                         }
                     case .failure(let error):
-                        print("Error fetching user at SignInViewModel: \(error.localizedDescription)")
                         completion(.failure(error))
                     }
                 }

@@ -12,14 +12,6 @@ import GoogleSignIn
 import UIKit
 
 extension SignInViewController {
-        
-    // For trouble shooting - delete this later!
-    func checkSignedInUsers() {
-        print("SignInVC - Google: \(String(describing: GIDSignIn.sharedInstance.currentUser))")
-        print("SignInVC - Facebook: \(String(describing: AccessToken.current))")
-        print("SignInVC - Firebase: \(String(describing: Auth.auth().currentUser?.email))")
-        print("Local user: \(String(describing: LocalData.shared.currentUser?.provider))")
-    }
 
     func configureSignInViewModel() {
         signInViewModel = SignInViewModel(firebaseAuthManager: FirebaseAuthenticationManager.shared, firebaseDBManager: FirebaseDatabaseManager.shared, vc: self)
@@ -95,5 +87,13 @@ extension SignInViewController {
     func pushSignUpVC() {
         guard let signUpVC = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as? SignUpViewController else { return }
         self.navigationController?.pushViewController(signUpVC, animated: true)
+    }
+    
+    // For trouble shooting - delete this later!
+    func checkSignedInUsers() {
+        print("SignInVC - Google: \(String(describing: GIDSignIn.sharedInstance.currentUser))")
+        print("SignInVC - Facebook: \(String(describing: AccessToken.current))")
+        print("SignInVC - Firebase: \(String(describing: Auth.auth().currentUser?.email))")
+        print("Local user: \(String(describing: LocalData.shared.currentUser?.provider))")
     }
 }
